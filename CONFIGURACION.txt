@@ -1,0 +1,12 @@
+CONFIGURACIÓN DE LA BASE DE DATOS REMOTA
+
+En el servidor o en NetBeans configure estas variables:
+
+DB_URL=jdbc:mysql://HOST:PUERTO/horario_guadalupe?sslMode=REQUIRED&serverTimezone=America/Costa_Rica
+DB_USERNAME=USUARIO
+DB_PASSWORD=CONTRASENA
+
+Si el proveedor de MySQL entrega un host, puerto, usuario, contraseña y nombre de base distintos, sustitúyalos.
+
+La aplicación NO usa localStorage ni IndexedDB para guardar la información principal.
+La información de semanas, horarios y lecciones se guarda en MySQL.
